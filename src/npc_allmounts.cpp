@@ -57,8 +57,26 @@ This code and content is released under the [GNU AGPL v3](https://github.com/aze
 
 */
 
-#include "Config.h"
-
+#include "ScriptMgr.h"
+#include "Configuration/Config.h"
+#include "Cell.h"
+#include "CellImpl.h"
+#include "GameEventMgr.h"
+#include "GridNotifiers.h"
+#include "GridNotifiersImpl.h"
+#include "Unit.h"
+#include "GameObject.h"
+#include "ScriptedCreature.h"
+#include "ScriptedGossip.h"
+#include "InstanceScript.h"
+#include "CombatAI.h"
+#include "PassiveAI.h"
+#include "Chat.h"
+#include "DBCStructure.h"
+#include "DBCStores.h"
+#include "ObjectMgr.h"
+#include "SpellScript.h"
+#include "SpellAuraEffects.h"
 bool AllMountsAnnounceModule;
 bool AllMountsTeachBengalTiger;
 bool AllMountsEnableAI;
